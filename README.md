@@ -13,7 +13,7 @@ distributions.</p>
 </p>
 -->
 
-![ungoogled-chromium](./docs/images/screenshots/screenshot_wikipedia.png?raw=true "my-snap-name")
+![ungoogled-chromium](./docs/images/screenshots/screenshot_wikipedia.png?raw=true "ungoogled-chromium")
 
 <p align="center">Visit the <a href="https://ungoogled-software.github.io/">official website</a> and <a href="https://github.com/Eloston/ungoogled-chromium">repository</a> of Ungoogled Chromium.<br>
 Published for <img src="https://raw.githubusercontent.com/anythingcodes/slack-emoji-for-techies/gh-pages/emoji/tux.png" align="top" width="20" /> with 💝 by Snapcrafters</p>
@@ -39,10 +39,8 @@ upstream so Ungoogled Chromium can authoritatively publish future releases.
 
   - [x] Release a first working version
   - [ ] Remove the "*You are using unsupported command flag*"
-  - [ ] Release to Beta channel 
-  - [ ] Debug the Chromium features
+  - [ ] Fix UI bugs
   - [ ] Improve starting time
-  - [ ] Create snaps from own ungoogled-chromium build
 
 If you have any questions, [post in the Snapcraft forum](https://forum.snapcraft.io).
 
