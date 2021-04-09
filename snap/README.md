@@ -37,9 +37,6 @@ snap install file.snap --dangerous
 
 1. Replace the `/usr/bin/chromium` with the fix in `./fixes`
    
-2. Move `/usr/bin/lib/x86_64-linux-gnu/pulseaudio/libpulsecommon-13.99.so`
-to `/usr/bin/lib/x86_64-linux-gnu/libpulsecommon-13.99.so`
-   
 ### Publish steps:
 Source: https://snapcraft.io/docs/releasing-your-app
 
