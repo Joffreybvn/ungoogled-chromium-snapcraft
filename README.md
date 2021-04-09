@@ -38,7 +38,7 @@ the [snapcraft.yaml](https://github.com/joffreybvn/ungoogled-chromium-snapcraft/
 upstream so Ungoogled Chromium can authoritatively publish future releases.
 
   - [x] Release a first working version
-  - [ ] Remove the "*You are using unsupported command flag*"
+  - [ ] Remove the missing sandbox warning
   - [ ] Fix UI bugs
   - [ ] Improve starting time
 
