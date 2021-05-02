@@ -1,5 +1,6 @@
 #!/bin/bash
 
+echo "Install script started"
 TAG="90.0.4430.85-1.1"
 
 # Run with elevated privileges
@@ -13,4 +14,4 @@ sudo snap install ungoogled-chromium_${TAG}-sandbox_amd64.snap --dangerous
 # Enable sandbox
 sudo snap connect ungoogled-chromium:browser-sandbox
 
-echo "# Ungoogled Chromium installation success !"
+echo "Ungoogled Chromium installation success !"
