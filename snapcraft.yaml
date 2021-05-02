@@ -1,5 +1,5 @@
 name: ungoogled-chromium
-version: 90.0.4430.85-1.1-2
+version: 90.0.4430.85-1.1-sandbox
 base: core20
 
 summary: Google Chromium, sans integration with Google
@@ -22,6 +22,11 @@ parts:
   chromium:
     plugin: dump
     source: ./sources/tarball
+    override-pull: |
+      snapcraftctl pull
+      chmod 4755 ./chrome-sandbox
+    prime:
+      - -chrome-sandbox
     stage-packages:
       - libnss3
       - libnspr4
@@ -35,13 +40,13 @@ slots:
 apps:
   ungoogled-chromium:
     extensions: [gnome-3-38]
-    command: chrome-wrapper --no-sandbox
+    command: chrome-wrapper
     environment:
       DISABLE_WAYLAND: 1
       CHROME_DESKTOP: usr/share/applications/chromium.desktop
       CHROME_CONFIG_HOME: $SNAP_USER_COMMON
     plugs:
-      - browser-support
+      - browser-sandbox
       - audio-playback
       - audio-record
       - bluez # for Web Bluetooth (https://launchpad.net/bugs/1887201)
@@ -70,3 +75,8 @@ apps:
     slots:
       - dbus-daemon
     common-id: com.github.joffreybvn.ungoogled-chromium-snapcraft
+
+plugs:
+  browser-sandbox:
+    interface: browser-support
+    allow-sandbox: true
