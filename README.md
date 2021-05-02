@@ -38,8 +38,9 @@ the [snapcraft.yaml](https://github.com/joffreybvn/ungoogled-chromium-snapcraft/
 upstream so Ungoogled Chromium can authoritatively publish future releases.
 
   - [x] Release a first working version
+  - [x] Fix UI bugs
+  - [x] Reduce snap size  
   - [ ] Remove the missing sandbox warning
-  - [ ] Fix UI bugs
   - [ ] Improve starting time
 
 If you have any questions, [post in the Snapcraft forum](https://forum.snapcraft.io).

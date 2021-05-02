@@ -1,5 +1,5 @@
 name: ungoogled-chromium
-version: 90.0.4430.85-1.1
+version: 90.0.4430.85-1.1-2
 base: core20
 
 summary: Google Chromium, sans integration with Google
@@ -21,7 +21,7 @@ architectures:
 parts:
   chromium:
     plugin: dump
-    source: ./sources/ungoogled-chromium_90.0.4430.85-1.1_linux.tar.xz
+    source: ./sources/tarball
     stage-packages:
       - libnss3
       - libnspr4
