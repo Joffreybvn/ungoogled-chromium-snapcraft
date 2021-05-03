@@ -20,13 +20,17 @@ Published for <img src="https://raw.githubusercontent.com/anythingcodes/slack-em
 
 ## Install
 
+[Don't have snapd installed?](https://snapcraft.io/docs/core/install)
+
 ### Method 1: Full version
 Chromium + Chromedriver + sandbox
 ```Shell
 sudo curl https://ungoogled-chromium.run | bash
 ```
+### Method 2: Manual installation
+`TODO`
 
-### Method 2: Snapcraft.io version
+### Method 3: Snapcraft.io version
 Chromium + Chromedriver, no sandbox
 ```Shell
 sudo snap install ungoogled-chromium --beta
@@ -34,7 +38,6 @@ sudo snap install ungoogled-chromium --beta
 
 [![Get it from the Snap Store](https://snapcraft.io/static/images/badges/en/snap-store-black.svg)](https://snapcraft.io/ungoogled-chromium)
 
-([Don't have snapd installed?](https://snapcraft.io/docs/core/install))
 
 ## Remaining tasks
 <!-- Uncomment and modify this when you have a screenshot
