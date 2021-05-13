@@ -9,3 +9,4 @@ tar -xf tarball.tar.xz --strip-components=1 -C tarball
 
 # Replace the files
 cp chrome-wrapper tarball/
+mv tarball/chrome_sandbox tarball/chrome-sandbox
