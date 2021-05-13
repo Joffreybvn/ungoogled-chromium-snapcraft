@@ -57,13 +57,13 @@ upstream so Ungoogled Chromium can authoritatively publish future releases.
 
 If you have any questions, [post in the Snapcraft forum](https://forum.snapcraft.io).
 
-
+<!--
 ## The Snapcrafters
 
 | [![Your Name](https://secure.gravatar.com/avatar/ef52a68ca237bd9268b7ea938c4918b4/?s=128)](https://github.com/yourname/) |
 | :---: |
 | [Joffrey Bienvenu](https://github.com/joffreybvn/)
-
+-->
 <!-- Uncomment and modify this when you have upstream contacts
 ## Upstream
 
