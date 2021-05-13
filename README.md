@@ -20,12 +20,24 @@ Published for <img src="https://raw.githubusercontent.com/anythingcodes/slack-em
 
 ## Install
 
-    sudo snap install ungoogled-chromium --edge
+[Don't have snapd installed?](https://snapcraft.io/docs/core/install)
 
+### Method 1: Full version
+Chromium + Chromedriver + sandbox
+```Shell
+sudo curl https://ungoogled-chromium.run | bash
+```
+### Method 2: Manual installation
+`TODO`
+
+### Method 3: Snapcraft.io version
+Chromium + Chromedriver, no sandbox
+```Shell
+sudo snap install ungoogled-chromium --beta
+```
 
 [![Get it from the Snap Store](https://snapcraft.io/static/images/badges/en/snap-store-black.svg)](https://snapcraft.io/ungoogled-chromium)
 
-([Don't have snapd installed?](https://snapcraft.io/docs/core/install))
 
 ## Remaining tasks
 <!-- Uncomment and modify this when you have a screenshot
@@ -40,7 +52,7 @@ upstream so Ungoogled Chromium can authoritatively publish future releases.
   - [x] Release a first working version
   - [x] Fix UI bugs
   - [x] Reduce snap size  
-  - [ ] Remove the missing sandbox warning
+  - [x] Remove the missing sandbox warning
   - [ ] Improve starting time
 
 If you have any questions, [post in the Snapcraft forum](https://forum.snapcraft.io).
