@@ -27,7 +27,7 @@ Chromium + Chromedriver + sandbox
 ```Shell
 sudo curl https://ungoogled-chromium.run | bash
 ```
-### Method 3: Snapcraft.io version
+### Method 2: Snapcraft.io version
 Chromium + Chromedriver, no sandbox
 ```Shell
 sudo snap install ungoogled-chromium --beta
