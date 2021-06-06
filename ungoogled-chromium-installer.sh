@@ -1,6 +1,6 @@
 #!/bin/bash
 
-TAG="90.0.4430.212-1.1-sandbox"
+TAG="91.0.4472.77-1.1-sandbox"
 
 # Install latest version
 echo "Download latest version"
