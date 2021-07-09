@@ -1,5 +1,5 @@
 name: ungoogled-chromium
-version: 91.0.4472.77-1.1
+version: 91.0.4472.114-1.1
 base: core20
 
 summary: Google Chromium, sans integration with Google
