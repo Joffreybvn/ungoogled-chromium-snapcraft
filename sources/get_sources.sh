@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Get the sources
-wget -O tarball.tar.xz "https://github.com/mdedonno1337/ungoogled-chromium-binaries/releases/download/91.0.4472.77-1.1/ungoogled-chromium_91.0.4472.77-1.1_linux.tar.xz"
+wget -O tarball.tar.xz "https://github.com/mdedonno1337/ungoogled-chromium-binaries/releases/download/91.0.4472.114-1.1/ungoogled-chromium_91.0.4472.114-1.1_linux.tar.xz"
 
 # Extract to "tarball" folder
 mkdir tarball
